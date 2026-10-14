@@ -1,0 +1,81 @@
+body {
+    background-color: lightblue;
+    background-image: repeating-linear-gradient(
+        45deg,
+        lightblue,
+        lightblue 20px,
+        white 20px,
+        white 40px
+    );
+    background-repeat: repeat;
+    color: black;
+    text-align: center;
+    border: 3px solid darkblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    background: white;
+    text-align: center;
+    border: 2px solid darkblue;
+    padding: 10px;
+}
+
+h2 {
+    color: darkgreen;
+    background: lightgreen;
+    text-align: center;
+    border: 2px solid darkgreen;
+    padding: 8px;
+}
+
+h3 {
+    color: purple;
+    background: lavender;
+    text-align: center;
+    border: 2px solid purple;
+    padding: 8px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    background: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+ul {
+    text-align: left;
+    background: white;
+    border: 2px solid darkgreen;
+    padding: 20px 40px;
+}
+
+ol {
+    text-align: left;
+    background: white;
+    border: 2px solid darkblue;
+    padding: 20px 40px;
+}
+
+img {
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+
+hr {
+    border: 1px solid darkblue;
+}
